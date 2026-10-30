@@ -258,9 +258,9 @@ footer b{color:var(--gold-soft);font-weight:500}
 
     <div class="prod-grid">
       <div class="frame rv slideshow" id="slides" aria-label="Product photos">
-        <div class="slide on"><img src="assets/akara-front.jpg" alt="Hujajah's Akara — pre-cooked black eye bean fritters" loading="lazy"></div>
-        <div class="slide"><img src="assets/hujajah-pack.jpeg" alt="Hujajah's Akara and Beignets, gift-wrapped" loading="lazy"></div>
-        <div class="slide"><img src="assets/products-bags.jpeg" alt="Hujajah's range of ready-to-cook street foods" loading="lazy"></div>
+        <div class="slide on"><img src="assets/akara-front.jpg" data-wb="https://web.archive.org/web/20250710224033im_/https://baobabconcierge.com/wp-content/uploads/2022/03/akara-front-jpg-600x1024.jpg" alt="Hujajah's Akara — pre-cooked black eye bean fritters" loading="lazy"></div>
+        <div class="slide"><img src="assets/hujajah-pack.jpeg" data-wb="https://web.archive.org/web/20250710224033im_/https://baobabconcierge.com/wp-content/uploads/2022/01/WhatsApp-Image-2021-12-13-at-11.50.47.jpeg" alt="Hujajah's Akara and Beignets, gift-wrapped" loading="lazy"></div>
+        <div class="slide"><img src="assets/products-bags.jpeg" data-wb="https://web.archive.org/web/20250710224033im_/https://baobabconcierge.com/wp-content/uploads/2022/01/WhatsApp-Image-2021-12-14-at-03.23.26.jpeg" alt="Hujajah's range of ready-to-cook street foods" loading="lazy"></div>
         <div class="dots"><button class="on" aria-label="Photo 1"></button><button aria-label="Photo 2"></button><button aria-label="Photo 3"></button></div>
       </div>
       <div class="prod-copy rv">
@@ -276,7 +276,7 @@ footer b{color:var(--gold-soft);font-weight:500}
       </div>
     </div>
 
-    <div class="rv" style="max-width:420px;margin:4rem auto 0;text-align:center"><div class="frame" style="padding:10px"><img src="assets/nutrition.jpeg" alt="Nutrition facts for The Akara Factory akara" loading="lazy"></div><div class="cap" style="font-family:var(--serif);font-size:1.2rem;margin-top:.7rem;color:var(--plum)">What's inside</div></div>
+    <div class="rv" style="max-width:420px;margin:4rem auto 0;text-align:center"><div class="frame" style="padding:10px"><img src="assets/nutrition.jpeg" data-wb="https://web.archive.org/web/20250710224033im_/https://baobabconcierge.com/wp-content/uploads/2022/03/Organic1-600x1024.jpeg" alt="Nutrition facts for The Akara Factory akara" loading="lazy"></div><div class="cap" style="font-family:var(--serif);font-size:1.2rem;margin-top:.7rem;color:var(--plum)">What's inside</div></div>
   </div>
 </section>
 
@@ -297,7 +297,7 @@ footer b{color:var(--gold-soft);font-weight:500}
         <li><div><b>NIRO Restaurant &amp; Bar</b><span>Opposite former IEC, Kairaba Avenue</span></div></li>
         <li><div><b>Alaeldin Restaurant</b><span>See flyer for the full list</span></div></li>
       </ol>
-      <div class="frame rv"><img src="assets/outlets-flyer.jpeg" alt="Now available at these outlets flyer" loading="lazy"></div>
+      <div class="frame rv"><img src="assets/outlets-flyer.jpeg" data-wb="https://web.archive.org/web/20250710224033im_/https://baobabconcierge.com/wp-content/uploads/2022/03/aladdin-1.jpeg" alt="Now available at these outlets flyer" loading="lazy"></div>
     </div>
     <p class="note center">Outlet list taken from our most recent flyer — call or WhatsApp +220 205 2945 to confirm availability near you.</p>
   </div>
@@ -314,7 +314,7 @@ footer b{color:var(--gold-soft);font-weight:500}
     </div>
 
     <div class="board-top">
-      <div class="frame rv"><img src="assets/board-of-directors.jpeg" alt="Baobab Concierge Services — Board of Directors" loading="lazy"></div>
+      <div class="frame rv"><img src="assets/board-of-directors.jpeg" data-wb="https://web.archive.org/web/20250710224033im_/https://baobabconcierge.com/wp-content/uploads/2022/03/BOD-NEW.jpeg" alt="Baobab Concierge Services — Board of Directors" loading="lazy"></div>
       <div class="memoriam rv">
         <span class="eyebrow">In Memoriam</span>
         <h3>H.E. Ambassador<br>Babou Ousman Jobe</h3>
@@ -404,5 +404,6 @@ document.querySelectorAll('#menu a').forEach(a=>a.addEventListener('click',()=>d
 const io = new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
 document.querySelectorAll('.rv').forEach(el=>io.observe(el));
 </script>
+<script>/* data-wb-fallback */document.querySelectorAll('img[data-wb]').forEach(function(i){function f(){if(i.dataset.fb)return;i.dataset.fb=1;i.src=i.dataset.wb}i.addEventListener('error',f);if(i.complete&&i.naturalWidth===0)f();});</script>
 </body>
 </html>
